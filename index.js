@@ -37,15 +37,15 @@ module.exports = {
     selectServer: selectServer,
     getServers: getServers,
     validate: validate,
-    //getLogs: getLogs,
-    //FTPdetails: getFTP,
-    // databaseDetails: getDatabase,
+    getLogs: getLogs,
+    FTPdetails: getFTP,
+     databaseDetails: getDatabase,
 
     files: {
         create: createFile,
         createFolder: createFolder,
-        //downloadFile: downloadFile,
-        //downloadFolder: downloadFolder,
+        downloadFile: downloadFile,
+        downloadFolder: downloadFolder,
         edit: editFile,
         delete: deleteFile,
         read: readFile,
@@ -58,7 +58,7 @@ module.exports = {
         send: consoleSend
     },
 
-    /*plugins: {
+    plugins: {
         all: getAllPlugins,
         installed: getInstalledPlugins,
         uninstalled: getUninstalledPlugins,
@@ -100,7 +100,7 @@ module.exports = {
         available: getAvailableBackups,
         load: loadBackup,
     },
-    */
+    
 
     API: {
         servers: servers,
